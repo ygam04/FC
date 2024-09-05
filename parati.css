@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #f6f9fc;
+}
+.muro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 0 3px 8px 3px #2f4f4f83;
+    margin: 0 auto;
+    background-color:rgba(176, 196, 222, 0.788);
+    border-radius: 80px;
+    padding: 0px 20px 0px 0px;
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    background-color: steelblue;
+    color: white;
+    padding: 15px;
+    border-radius: 80px;
+}
+.titulo{
+    margin-right: 10%;
+}
+.publicacion{
+    width: 500px;
+    height: auto;
+    box-shadow: 0 3px 8px 3px #2f4f4f83;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+.encabezado{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.detalles{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.nombre{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.hora{
+    font-weight: bolder;
+    color: steelblue;
+}
+.perfil{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.menu{
+    display: flex;
+    font-size: 1.8em;
+    color: #000;
+    margin: 10px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+.foto{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+}
+.texto{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+.interaccion{
+    display: flex;
+    margin: 10px 10px 5px;
+}
+.icono{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 2px;
+    letter-spacing: -0.5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.sombra:hover{
+    background-color: #88afcf6c;
+}

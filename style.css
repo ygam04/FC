@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.encabezado {
+    height: auto;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+h1{
+    font-family: "Matemasie", sans-serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+h2{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.imagen{
+    display: block;
+    width: 14%;
+    position: absolute;
+    top: -30px;
+}
+.dos{
+    right: 0;
+}
+
+.mes {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto repeat(5, 1fr);
+    gap: 3px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.semana, .dias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #aaa;
+    font-size: 2.2em;
+}
+
+.semana{
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid lightsteelblue;
+    color: steelblue;
+}
+
+.jk{
+    background-image: url(img/jkcumple.png);
+    background-size: 100%;
+    background-position: 40px -40px;
+    font-size: 4em;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.nam{
+    background-image: url(img/nam.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 70px -20px;
+    font-size: 3em;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.tata{
+    background-image: url(img/tata.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 45px -60px;
+    font-size: 4em;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.cumpleaños{
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 4em;
+    background-image: url(img/fondo.png);
+    background-size: 70%;
+    background-position: center;
+    text-decoration: none;
+    color: #000;
+}
+.cumpleaños:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+.cumpleaños:hover{
+    filter: drop-shadow(0 0 10px steelblue);
+    border: none;
+    cursor: pointer;
+    background-image: url(img/jk2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+.cumpleaños:hover::after{
+    content: "Tocame";
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    bottom: 0;
+    left: 15px;
+}
