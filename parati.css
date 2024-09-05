@@ -5,6 +5,39 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.decoracion{
+    position: fixed;
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    box-shadow: 0 4px 5px 2px steelblue;
+}
+.jk1{
+    bottom: 40px;
+    left: 30px;
+}
+.jk2{
+    bottom: 40px;
+    right: 30px;
+}
+.jk3{
+    bottom: 200px;
+    left: 180px;
+}
+.jk4{
+    bottom: 200px;
+    right: 180px;
+}
+.jk5{
+    bottom: 370px;
+    left: 30px;
+}
+.jk6{
+    bottom: 370px;
+    right: 30px;
+}
+
 body{
     background-color: #f6f9fc;
 }
