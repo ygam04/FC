@@ -8,34 +8,36 @@
 .decoracion{
     position: fixed;
     display: block;
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     box-shadow: 0 4px 5px 2px steelblue;
 }
 .jk1{
-    bottom: 40px;
-    left: 30px;
+    bottom: 80px;
+    left: 70px;
 }
 .jk2{
-    bottom: 40px;
-    right: 30px;
+    bottom: 80px;
+    right: 70px;
 }
 .jk3{
-    bottom: 200px;
-    left: 180px;
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 70px;
 }
 .jk4{
-    bottom: 200px;
-    right: 180px;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 70px;
 }
 .jk5{
-    bottom: 370px;
-    left: 30px;
+    top: 80px;
+    left: 70px;
 }
 .jk6{
-    bottom: 370px;
-    right: 30px;
+    top: 80px;
+    right: 70px;
 }
 
 body{
